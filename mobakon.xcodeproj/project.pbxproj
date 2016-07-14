@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58E6C7932F84FC73BCDCEB11 /* Pods_mobakonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE31F9C3948FC05E8562524 /* Pods_mobakonTests.framework */; };
+		76FB6ADE8A20EA197FB41C1A /* Pods_mobakonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDD22352D056471420EA279 /* Pods_mobakonUITests.framework */; };
 		9ACA2ACE1D38014A00ADF47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2ACD1D38014A00ADF47A /* AppDelegate.swift */; };
 		9ACA2AD01D38014A00ADF47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2ACF1D38014A00ADF47A /* ViewController.swift */; };
 		9ACA2AD31D38014A00ADF47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA2AD11D38014A00ADF47A /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		9ACA2AD81D38014A00ADF47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA2AD61D38014A00ADF47A /* LaunchScreen.storyboard */; };
 		9ACA2AE31D38014A00ADF47A /* mobakonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2AE21D38014A00ADF47A /* mobakonTests.swift */; };
 		9ACA2AEE1D38014A00ADF47A /* mobakonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2AED1D38014A00ADF47A /* mobakonUITests.swift */; };
+		9ACA2AFD1D3802EC00ADF47A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2AFB1D3802EC00ADF47A /* TableViewController.swift */; };
+		9ACA2AFE1D3802EC00ADF47A /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA2AFC1D3802EC00ADF47A /* TableViewController.xib */; };
+		9ACA2B011D38048800ADF47A /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2AFF1D38048800ADF47A /* FeedTableViewCell.swift */; };
+		9ACA2B021D38048800ADF47A /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ACA2B001D38048800ADF47A /* FeedTableViewCell.xib */; };
+		9ACA2B041D3806C800ADF47A /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2B031D3806C800ADF47A /* Entry.swift */; };
+		9ACA2B061D3809C200ADF47A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACA2B051D3809C200ADF47A /* DetailViewController.swift */; };
+		C7EA1AC8C04E193A402D2D75 /* Pods_mobakon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97E49C6BB45543038A7F75 /* Pods_mobakon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5DE22E7906B7B1B916B939 /* Pods-mobakon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakon.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobakon/Pods-mobakon.release.xcconfig"; sourceTree = "<group>"; };
+		4155954E346AD5B071C54A28 /* Pods-mobakonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobakonTests/Pods-mobakonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9ACA2ACA1D38014A00ADF47A /* mobakon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobakon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACA2ACD1D38014A00ADF47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACA2ACF1D38014A00ADF47A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		9ACA2AE91D38014A00ADF47A /* mobakonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobakonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACA2AED1D38014A00ADF47A /* mobakonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobakonUITests.swift; sourceTree = "<group>"; };
 		9ACA2AEF1D38014A00ADF47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACA2AFB1D3802EC00ADF47A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9ACA2AFC1D3802EC00ADF47A /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		9ACA2AFF1D38048800ADF47A /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		9ACA2B001D38048800ADF47A /* FeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		9ACA2B031D3806C800ADF47A /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		9ACA2B051D3809C200ADF47A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F710258B368F4D0333BE4A8 /* Pods-mobakonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobakonUITests/Pods-mobakonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC435D539184BB965A8DC009 /* Pods-mobakonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobakonUITests/Pods-mobakonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDDD22352D056471420EA279 /* Pods_mobakonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobakonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10C6013F9C144F7064B9529 /* Pods-mobakon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mobakon/Pods-mobakon.debug.xcconfig"; sourceTree = "<group>"; };
+		E249F58E451723D670A2FE62 /* Pods-mobakonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobakonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mobakonTests/Pods-mobakonTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC97E49C6BB45543038A7F75 /* Pods_mobakon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobakon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE31F9C3948FC05E8562524 /* Pods_mobakonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobakonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7EA1AC8C04E193A402D2D75 /* Pods_mobakon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E6C7932F84FC73BCDCEB11 /* Pods_mobakonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FB6ADE8A20EA197FB41C1A /* Pods_mobakonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				9ACA2AE11D38014A00ADF47A /* mobakonTests */,
 				9ACA2AEC1D38014A00ADF47A /* mobakonUITests */,
 				9ACA2ACB1D38014A00ADF47A /* Products */,
+				E67BA557481A99257A73978C /* Pods */,
+				D77A9B291C8E7D5C9334CA50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,12 @@
 				9ACA2AD41D38014A00ADF47A /* Assets.xcassets */,
 				9ACA2AD61D38014A00ADF47A /* LaunchScreen.storyboard */,
 				9ACA2AD91D38014A00ADF47A /* Info.plist */,
+				9ACA2AFB1D3802EC00ADF47A /* TableViewController.swift */,
+				9ACA2AFC1D3802EC00ADF47A /* TableViewController.xib */,
+				9ACA2AFF1D38048800ADF47A /* FeedTableViewCell.swift */,
+				9ACA2B001D38048800ADF47A /* FeedTableViewCell.xib */,
+				9ACA2B031D3806C800ADF47A /* Entry.swift */,
+				9ACA2B051D3809C200ADF47A /* DetailViewController.swift */,
 			);
 			path = mobakon;
 			sourceTree = "<group>";
@@ -125,6 +160,29 @@
 			path = mobakonUITests;
 			sourceTree = "<group>";
 		};
+		D77A9B291C8E7D5C9334CA50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC97E49C6BB45543038A7F75 /* Pods_mobakon.framework */,
+				FDE31F9C3948FC05E8562524 /* Pods_mobakonTests.framework */,
+				CDDD22352D056471420EA279 /* Pods_mobakonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E67BA557481A99257A73978C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E10C6013F9C144F7064B9529 /* Pods-mobakon.debug.xcconfig */,
+				2A5DE22E7906B7B1B916B939 /* Pods-mobakon.release.xcconfig */,
+				4155954E346AD5B071C54A28 /* Pods-mobakonTests.debug.xcconfig */,
+				E249F58E451723D670A2FE62 /* Pods-mobakonTests.release.xcconfig */,
+				9F710258B368F4D0333BE4A8 /* Pods-mobakonUITests.debug.xcconfig */,
+				BC435D539184BB965A8DC009 /* Pods-mobakonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ACA2AF21D38014A00ADF47A /* Build configuration list for PBXNativeTarget "mobakon" */;
 			buildPhases = (
+				D0288D7757E92A00C42F4675 /* [CP] Check Pods Manifest.lock */,
 				9ACA2AC61D38014A00ADF47A /* Sources */,
 				9ACA2AC71D38014A00ADF47A /* Frameworks */,
 				9ACA2AC81D38014A00ADF47A /* Resources */,
+				FB2CB854F9233768B5BA5627 /* [CP] Embed Pods Frameworks */,
+				41D54140BE4EE1DBF7451CC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ACA2AF51D38014A00ADF47A /* Build configuration list for PBXNativeTarget "mobakonTests" */;
 			buildPhases = (
+				2B7B03A0E1D84C46232A6E31 /* [CP] Check Pods Manifest.lock */,
 				9ACA2ADA1D38014A00ADF47A /* Sources */,
 				9ACA2ADB1D38014A00ADF47A /* Frameworks */,
 				9ACA2ADC1D38014A00ADF47A /* Resources */,
+				B55C4C8D52533639BA7ED36F /* [CP] Embed Pods Frameworks */,
+				68E94F1FE9086C5E6865D8C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ACA2AF81D38014A00ADF47A /* Build configuration list for PBXNativeTarget "mobakonUITests" */;
 			buildPhases = (
+				5F8D37A780FA6A45F2619CB8 /* [CP] Check Pods Manifest.lock */,
 				9ACA2AE51D38014A00ADF47A /* Sources */,
 				9ACA2AE61D38014A00ADF47A /* Frameworks */,
 				9ACA2AE71D38014A00ADF47A /* Resources */,
+				6F5A1A69AFFF3FC7C0FFDDD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACA2AD81D38014A00ADF47A /* LaunchScreen.storyboard in Resources */,
+				9ACA2B021D38048800ADF47A /* FeedTableViewCell.xib in Resources */,
 				9ACA2AD51D38014A00ADF47A /* Assets.xcassets in Resources */,
 				9ACA2AD31D38014A00ADF47A /* Main.storyboard in Resources */,
+				9ACA2AFE1D3802EC00ADF47A /* TableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +319,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B7B03A0E1D84C46232A6E31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41D54140BE4EE1DBF7451CC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobakon/Pods-mobakon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8D37A780FA6A45F2619CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		68E94F1FE9086C5E6865D8C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobakonTests/Pods-mobakonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5A1A69AFFF3FC7C0FFDDD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobakonUITests/Pods-mobakonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55C4C8D52533639BA7ED36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobakonTests/Pods-mobakonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0288D7757E92A00C42F4675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2CB854F9233768B5BA5627 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mobakon/Pods-mobakon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9ACA2AC61D38014A00ADF47A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACA2B041D3806C800ADF47A /* Entry.swift in Sources */,
 				9ACA2AD01D38014A00ADF47A /* ViewController.swift in Sources */,
+				9ACA2B011D38048800ADF47A /* FeedTableViewCell.swift in Sources */,
+				9ACA2B061D3809C200ADF47A /* DetailViewController.swift in Sources */,
+				9ACA2AFD1D3802EC00ADF47A /* TableViewController.swift in Sources */,
 				9ACA2ACE1D38014A00ADF47A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +594,7 @@
 		};
 		9ACA2AF31D38014A00ADF47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10C6013F9C144F7064B9529 /* Pods-mobakon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mobakon/Info.plist;
@@ -410,6 +606,7 @@
 		};
 		9ACA2AF41D38014A00ADF47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5DE22E7906B7B1B916B939 /* Pods-mobakon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mobakon/Info.plist;
@@ -421,6 +618,7 @@
 		};
 		9ACA2AF61D38014A00ADF47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4155954E346AD5B071C54A28 /* Pods-mobakonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = mobakonTests/Info.plist;
@@ -433,6 +631,7 @@
 		};
 		9ACA2AF71D38014A00ADF47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E249F58E451723D670A2FE62 /* Pods-mobakonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = mobakonTests/Info.plist;
@@ -445,6 +644,7 @@
 		};
 		9ACA2AF91D38014A00ADF47A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F710258B368F4D0333BE4A8 /* Pods-mobakonUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = mobakonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +656,7 @@
 		};
 		9ACA2AFA1D38014A00ADF47A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC435D539184BB965A8DC009 /* Pods-mobakonUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = mobakonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +685,7 @@
 				9ACA2AF41D38014A00ADF47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACA2AF51D38014A00ADF47A /* Build configuration list for PBXNativeTarget "mobakonTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +694,7 @@
 				9ACA2AF71D38014A00ADF47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ACA2AF81D38014A00ADF47A /* Build configuration list for PBXNativeTarget "mobakonUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +703,7 @@
 				9ACA2AFA1D38014A00ADF47A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

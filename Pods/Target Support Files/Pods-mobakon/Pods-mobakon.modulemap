@@ -1,0 +1,6 @@
+framework module Pods_mobakon {
+  umbrella header "Pods-mobakon-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_mobakonUITests {
+  umbrella header "Pods-mobakonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

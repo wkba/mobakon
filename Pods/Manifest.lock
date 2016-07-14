@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (3.4.1)
+  - PageMenu (1.2.9)
+  - SwiftyJSON (2.3.2)
+  - TOWebViewController (2.2.4):
+    - TOWebViewController/Core (= 2.2.4)
+  - TOWebViewController/Core (2.2.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - PageMenu
+  - SwiftyJSON
+  - TOWebViewController
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TOWebViewController: f6b234d2be45dbf81d2a71a1f9480f8f3cc6501a
+
+PODFILE CHECKSUM: 1e1d72f659f9432171be54e02b7a9a8ec1c03796
+
+COCOAPODS: 1.0.1
